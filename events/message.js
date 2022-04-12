@@ -1,5 +1,5 @@
 const playMusic = require("../commands/playMusic.js");
-const prefix = "!radio";
+const prefix = "!ruc";
 
 module.exports = (client, msg) => {
     if (msg.content.startsWith(prefix)) {
